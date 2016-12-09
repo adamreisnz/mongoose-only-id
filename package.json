@@ -1,7 +1,7 @@
 {
   "name": "meanie-mongoose-only-id",
   "description": "Simple Mongoose helper to strip an object to just an ID, for use with Meanie Express Seed projects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/meanie/mongoose-only-id",
   "author": {
     "name": "Adam Reis",
