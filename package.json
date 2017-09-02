@@ -1,5 +1,5 @@
 {
-  "name": "meanie-mongoose-only-id",
+  "name": "@meanie/mongoose-only-id",
   "description": "Mongoose helper to safely strip objects to just an ID",
   "version": "2.0.0",
   "homepage": "https://github.com/meanie/mongoose-only-id",
