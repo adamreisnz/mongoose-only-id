@@ -58,4 +58,4 @@ Pull requests are welcome! If you would like to contribute to Meanie, please che
 ## License
 (MIT License)
 
-Copyright 2016-2017, [Adam Reis](http://adam.reis.nz)
+Copyright 2016-2017, [Adam Reis](https://adam.reis.nz)
