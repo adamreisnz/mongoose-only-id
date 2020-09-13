@@ -9,6 +9,9 @@ const {ObjectId} = require('mongoose').Types;
  * Helper to return only an ID if object or model given
  */
 module.exports = function onlyId(obj, preserve = false) {
+  if (!obj) {
+    return obj;
+  }
   if (Array.isArray(obj)) {
     return obj.map(onlyId);
   }
