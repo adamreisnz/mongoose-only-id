@@ -1,7 +1,7 @@
 {
   "name": "@meanie/mongoose-only-id",
   "description": "Mongoose helper to safely strip objects to just an ID",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "homepage": "https://github.com/meanie/mongoose-only-id",
   "author": {
     "name": "Adam Reis",
