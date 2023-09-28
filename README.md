@@ -23,18 +23,18 @@ npm install @reis/mongoose-only-id --save
 import {onlyId} from '@reis/mongoose-only-id'
 
 //Objects are stripped to only ID
-onlyId({id: '123', name: 'Name'}); //'123'
-onlyId({_id: new ObjectId('123'), name: 'Name'}); //'123'
+onlyId({id: '123', name: 'Name'}) //'123'
+onlyId({_id: new ObjectId('123'), name: 'Name'}) //'123'
 
 //Also works on arrays
 onlyId([
   {id: '123', name: 'Item 1'},
   {_id: new ObjectId('123'), name: 'Name'},
-]); //['123', '123']
+]) //['123', '123']
 
 //Simple values are retained
-onlyId('123'); //'123'
-onlyId(123); //123
+onlyId('123') //'123'
+onlyId(123) //123
 ```
 
 ## Issues & feature requests
