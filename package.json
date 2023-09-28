@@ -1,12 +1,12 @@
 {
-  "name": "@meanie/mongoose-only-id",
+  "name": "@reis/mongoose-only-id",
   "description": "Mongoose helper to safely strip objects to just an ID",
-  "version": "2.4.0",
-  "homepage": "https://github.com/meanie/mongoose-only-id",
+  "version": "3.0.0",
+  "type": "module",
+  "homepage": "https://github.com/adamreisnz/mongoose-only-id",
   "author": {
     "name": "Adam Reis",
-    "email": "adam@reis.nz",
-    "url": "https://adam.reis.nz/"
+    "email": "adam@reis.nz"
   },
   "contributors": [],
   "license": "MIT",
@@ -15,24 +15,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meanie/mongoose-only-id"
+    "url": "https://github.com/adamreisnz/mongoose-only-id"
   },
   "bugs": {
-    "url": "https://github.com/meanie/mongoose-only-id/issues"
+    "url": "https://github.com/adamreisnz/mongoose-only-id/issues"
   },
   "keywords": [
-    "meanie",
     "mongoose",
-    "helper"
+    "helper",
+    "objectid"
   ],
   "engines": {
-    "node": ">=8"
+    "node": ">=18"
   },
   "main": "index.js",
   "scripts": {
-    "postversion": "git push && git push --tags && npm publish"
+    "postversion": "git push && npm publish"
   },
   "peerDependencies": {
-    "mongoose": ">=4.13.9"
+    "mongoose": ">=7.1.0"
   }
 }
